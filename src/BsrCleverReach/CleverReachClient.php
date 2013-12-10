@@ -51,7 +51,7 @@ class CleverReachClient
 
     public function __call($method, $args = array())
     {
-        $args = array_merge(array($apiKey), $args);
-        $soapClient->$method($args);
+        $args = array_merge(array($this->apiKey), $args);
+        $this->soapClient->$method($args);
     }
 }
