@@ -27,7 +27,7 @@ class CleverReachClient
     /**
      * Cleverreach API version
      */
-    const API_VERSION = '5.0';
+    const API_VERSION = '5.1';
 
     /**
      * Cleverreach Wsdl url
