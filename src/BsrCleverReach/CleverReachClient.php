@@ -45,7 +45,7 @@ class CleverReachClient
     public function __construct($apiKey, $wsdlUrl = self::WSDL_URL)
     {
         $this->apiKey = $apiKey;
-        $this->soapClient = new SoapClient($wsdl_url);
+        $this->soapClient = new \SoapClient($wsdl_url);
 
     }
 
